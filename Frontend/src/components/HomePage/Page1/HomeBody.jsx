@@ -51,8 +51,8 @@ function HomeBody() {
             ></span>
           </div>
         </div>
-        <div className="pt-20 sm:pt-14 pb-20">
-          <h1 className="text-4xl sm:text-6xl text-[#35815e] p-2">
+        <div className="my-16">
+          <h1 className="text-xl sm:text-5xl text-[#35815e] p-2 whitespace-nowrap">
             "Serving Society Via Technology"
           </h1>
         </div>

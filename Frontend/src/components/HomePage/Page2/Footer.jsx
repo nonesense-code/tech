@@ -33,7 +33,7 @@ https://evtechso.com/"
             </a>
           </div>
         </div>
-        <div className="px-4 sm:px-0 py-2 flex justify-center sm:justify-evenly items-center whitespace-nowrap gap-10 text-sm sm:text-lg">
+        <div className="px-4 sm:px-0 py-2 flex justify-center sm:justify-evenly items-center whitespace-nowrap gap-10 text-sm sm:text-lg flex-wrap">
           <div className="flex flex-col gap-4 items-center">
             <div>
               <h1 className="text-xl sm:text-2xl font-semibold text-[#A5B4FC]">
