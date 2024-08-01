@@ -49,7 +49,7 @@ function HomeNav() {
         <div className="font-semibold text-md rounded-full p-1 cursor-pointer">
           {isOpen ? (
             <div className="flex flex-col sm:flex-row">
-              {["BOD", "Event", "Contact", "About"].map((item, index) => (
+              {["BOD", "Event", "Contact", "About","None"].map((item, index) => (
                 <div
                   key={index}
                   className="text-[#1d2b41] text-xl hover:bg-zinc-600/10 hover:rounded-lg p-1 hover:p-1 outline-none"
