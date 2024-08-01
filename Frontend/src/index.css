@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Merriweather", "PT serif";
+}
+
+.branding {
+  font-family: "PT serif", "Merriweather";
+}
+
+.navbar {
+  backdrop-filter: blur(20px);
+}
+
+.glow {
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+  color: #000;
+  text-shadow: 0 0 10px #e7e41f, 0 0 10px #2e8f92, 0 0 20px #fff,
+    0 0 20px #e96812;
+}
