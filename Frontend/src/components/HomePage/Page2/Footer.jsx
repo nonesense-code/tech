@@ -6,9 +6,9 @@ import { FaGoogle } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white w-full">
+    <footer className="bg-zinc-800 text-white w-full">
       <div className="flex flex-col gap-4">
-        <div className="border-b-2 border-zinc-900 p-1 flex items-center justify-evenly sm:justify-center gap-2 font-semibold flex-wrap w-full">
+        <div className="border-b-2 border-zinc-500 p-1 flex items-center justify-evenly sm:justify-center gap-2 font-semibold flex-wrap w-full">
           <div className="flex items-center justify-center w-1/2 gap-2 sm:gap-4">
             <a
               href="https://www.facebook.com/everesttechsonetwork"

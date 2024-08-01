@@ -10,10 +10,6 @@ body {
   font-family: "PT serif", "Merriweather";
 }
 
-.navbar {
-  backdrop-filter: blur(20px);
-}
-
 .glow {
   font-family: Tahoma, Verdana, Geneva, sans-serif;
   color: #000;

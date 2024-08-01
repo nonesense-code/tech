@@ -9,7 +9,7 @@ function Content1() {
             whileHover={{
               scale: 1.02,
             }}
-            className="left cursor-pointer p-4 rounded-xl backdrop-blur-md bg-stone-400 text-md text-light tracking-wide"
+            className="left cursor-pointer p-4 rounded-xl backdrop-blur-md bg-indigo-300 text-md text-light tracking-wide"
           >
             <h1 className="text-2xl font-semibold text-center pb-2">
               Our Mission

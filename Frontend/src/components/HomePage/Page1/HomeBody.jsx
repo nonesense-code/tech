@@ -22,7 +22,7 @@ function HomeBody() {
   }, []);
 
   return (
-    <div className="w-full relative pt-32 px-4 flex flex-wrap overflow-hidden bg-stone-400/40">
+    <div className="w-full relative pt-32 px-4 flex flex-wrap overflow-hidden bg-white">
       <div className="loadingtext text-4xl sm:text-6xl font-semibold">
         <div className="leading-none">
           <div className="text-[#010020] tracking-tighter">
@@ -52,12 +52,11 @@ function HomeBody() {
           </div>
         </div>
         <div className="my-16">
-          <h1 className="text-xl sm:text-5xl text-[#35815e] p-2 whitespace-nowrap">
+          <h1 className="sm:text-5xl text-[#35815e] p-2 whitespace-nowrap pb-12 pt-12">
             "Serving Society Via Technology"
           </h1>
         </div>
       </div>
-      <div className="pt-8"></div>
     </div>
   );
 }

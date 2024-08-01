@@ -12,7 +12,7 @@ function HomeNav() {
 
   return (
     <>
-      <div className="navbar fixed w-full px-4 py-3 flex items-start sm:items-center sm:justify-between justify-start flex-wrap flex-col sm:flex-row border-b-[1px] border-zinc-500/40 overflow-hidden z-10">
+      <div className="navbar fixed w-full px-4 py-3 flex items-start sm:items-center sm:justify-between justify-start flex-wrap flex-col sm:flex-row border-b-[1px] border-zinc-500/40 overflow-hidden z-10 bg-zinc-100">
         <div className="flex gap-2 items-center text-[#3b2f44]">
           <div onClick={handleClick} className="relative">
             <motion.div
@@ -49,7 +49,7 @@ function HomeNav() {
         <div className="font-semibold text-md rounded-full p-1 cursor-pointer">
           {isOpen ? (
             <div className="flex flex-col sm:flex-row">
-              {["BOD", "Event", "Contact", "About","None"].map((item, index) => (
+              {["BOD", "Event", "Contact", "About"].map((item, index) => (
                 <div
                   key={index}
                   className="text-[#1d2b41] text-xl hover:bg-zinc-600/10 hover:rounded-lg p-1 hover:p-1 outline-none"
